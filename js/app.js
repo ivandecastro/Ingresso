@@ -8,7 +8,7 @@ function comprar() {
 
     //Making the code to check if the quantity is null or 0.
     if (quantity === '' || isNaN(quantity) || quantity === 0) {
-        alert('Por favor, adicione uma quantidade válida.');
+        alert('Por favor, adicione uma quantidade válida que seja válida.');
         return;
     }
     //Making the code used to buy the tickets.
